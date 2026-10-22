@@ -243,7 +243,7 @@ while program_jalan:
                 print("Password minimal 4 karakter!")
             else:
                 users.append([username_baru, password_baru, "User"])
-                print("Akun '{username_baru}' berhasil dibuat! silahkan login")
+                print(f"Akun '{username_baru}' berhasil dibuat! silahkan login")
         input("Tekan Enter untuk lanjut...")
 
     elif pilihan == "3":
